@@ -1,0 +1,42 @@
+#page { width: 99vw; height: 99vh; margin: 0 auto; } 
+#jin { height:65vh; margin: 0 auto; } 
+ 
+ .top { width: 20rem; height: 30%; margin: 1rem auto; } 
+ 
+ .top img { width: 99%; } 
+ 
+ .cos { width: 99%; height: 65%; display: flex; justify-content: center; } 
+ 
+ .pic1 img { width: 8.75rem; margin-right: 0.625rem; } 
+ 
+ .pic2 img { width: 8.75rem; }
+ 
+ @media (min-width: 768px) { 
+ .pic1 { width: 20rem; margin-right: 20px; } 
+ .pic2 { width: 20rem; margin-left: 20px; } 
+ .pic1 img { content: url("../img/Frame\ 18.png"); width: 100%; 
+ margin: 0;}
+ .pic2 img { content: url("../img/Frame\ 19.png"); width: 100%; 
+ margin: 0;}
+
+ .top { width: 50%; } 
+
+ .top img { max-width: 100%; display: flex; justify-content: center; margin: 0; } 
+ 
+
+ aside { width: 100%; height: 65%; display: flex; justify-content: center; margin-bottom: -6rem; } 
+ .cos { padding: 0; } 
+ #jin { height:48vh; margin-top: 2rem; } 
+ }
+ 
+ @media (min-width: 1440px) { 
+ .pic1 { width: 80%; } 
+ .pic2 { width: 80%; } 
+ .top { width: 80%; height: 100%; margin-top: 5rem; } 
+ .pic1 img { content: url("../img/Frame\ 8.png"); width: 15rem; }
+  .pic2 img { content: url("../img/Frame\ 9.png"); width: 15rem; }
+ aside { margin-top: 10rem; float: right; width: 50%; border-left: 1px solid grey; height: 914px; } 
+ #jin { height: 20%; } 
+ .cos { height: 490px; } 
+ }
+ 

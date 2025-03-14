@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Somok</title>
+
+    <!-- TODO : 1) Swiper js(캐러셀, 이미지 회전) css 넣기 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- TODO : AOS css: https://michalsnik.github.io/aos/ -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- css 모음음-->
+    <link rel="stylesheet" href="./css/00_style.css" />
+    <!-- 수민 탑, 메인베너 css -->
+    <link rel="stylesheet" href="./css/01_header.css" />
+    <link rel="stylesheet" href="./css/02_nav.css" />
+    <link rel="stylesheet" href="./css/03_main.css" />
+    <link rel="stylesheet" href="./css/SUMINCSS/slidemenu.css" />
+    <!--  메인화면 테스트 -->
+    <link rel="stylesheet" href="./css/SUMINCSS/hovermenu_sm.css" />
+    <!-- 임시본문 탑이랑 푸터 간격 별려놓을라고 넣어놓은거에요~! -->
+    <link rel="stylesheet" href="./css/10_bonmun.css" />
+    <!-- 수정 css -->
+    <link rel="stylesheet" href="./css/05_main.css" />
+    <!-- 지니 본문 css -->
+    <link rel="stylesheet" href="./css/06_main.css" />
+    <link rel="stylesheet" href="./css/07_main.css" />
+    <!-- 이미 푸터 css -->
+    <link rel="stylesheet" href="./css/08_footer.css" />
+    <!-- 수민 하단메뉴바 css -->
+    <link rel="stylesheet" href="./css/09_bottom_menu.css" />
+    <!-- 파비콘콘 -->
+    <link rel="icon" type="image/png" href="./img/로고 파비콘.png" />
+
+    <!-- 빙글빙글 도는거 스타일 -->
+    <style>
+      .daegul {
+        -webkit-text-stroke: 0.7px var(--dark_green1);
+        color: white;
+        width: 100%;
+        height: 5rem;
+        overflow: hidden;
+        white-space: nowrap;
+        background: white;
+
+        font-size: 3rem;
+        position: relative;
+        font-family: "DM Serif Display", serif;
+        font-style: italic;
+      }
+
+      .daegul-inner {
+        display: flex;
+        gap: 50px; /* 텍스트 간격 조정 */
+        width: max-content; /* 내용 크기만큼 설정 */
+        animation: daegul 15s linear infinite;
+        margin-top: 1rem;
+      }
+
+      .daegul:hover .daegul-inner {
+        animation: daegul-reverse 15s linear infinite;
+      }
+
+      @keyframes daegul {
+        from {
+          transform: translateX(-50%);
+        }
+        to {
+          transform: translateX(0%);
+        }
+      }
+
+      @keyframes daegul-reverse {
+        from {
+          transform: translateX(0%);
+        }
+        to {
+          transform: translateX(-50%);
+        }
+      }
+
+      @media screen and (min-width: 768px) and (max-width: 1439px) {
+        .daegul {
+          font-size: 5rem;
+          height: 8rem;
+        }
+        .daegul-inner {
+          margin-top: 1.2rem;
+        }
+      }
+
+      @media screen and (min-width: 1440px) {
+        .daegul {
+          -webkit-text-stroke: 1.5px var(--dark_green1);
+          color: white;
+          font-size: 8rem;
+          height: 12rem;
+          margin-bottom: 2rem;
+          padding: 0;
+          margin-bottom: 5rem;
+          position: absolute;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 전체페이지 :[PAGE] -->
+    <div id="page">
+      <!-- 탑(고정) 신규가입유도  -->
+      <header>
+        <a href="./11_sm.html">
+          <div class="join">
+            <p>소목 신규 회원 특별 혜택! 지금 회원가입 하러 가기!</p>
+          </div>
+        </a>
+      </header>
+      <!-- 탑(고정) 소목 로고, 장바구니메뉴 등등  -->
+      <nav>
+        <a href="./index.html">
+          <div class="somokfst">
+            <h1>SOMOK</h1>
+          </div>
+        </a>
+        <div class="cart">
+          <img src="./img/카트.png" alt="장바구니메뉴" />
+        </div>
+
+        <div class="search">
+          <img src="./img/돋보기.png" alt="검색메뉴" />
+        </div>
+      </nav>
+      <!-- 데스크탑 할때 나올 로고랑 탑 메뉴 -->
+
+      <div class="somok">
+        <div class="menususu">
+          <div class="menususu1">
+            <button class="menususu-button">
+              <img class="newrogo" src="./img/로고깨끗한거.png" />
+            </button>
+          </div>
+          <div class="menususu-content">
+            <a href="./index.html" class="MNSM">SOMOK</a>
+            <a href="./jini copy.html" class="mn1">PERSONAL SERVICE</a>
+            <a href="./brandinforsm.html" class="mn2">BRAND STORY</a>
+            <a href="./00_sujung.html" class="mn3">EVENT</a>
+            <a href="./best_ng.html" class="mn4">BEST</a>
+            <a href="./06_new-01.html" class="mn5">NEW</a>
+          </div>
+        </div>
+      </div>
+
+      <main>
+        <div class="mbn">
+          <img
+            class="mbnyj"
+            src="./img/로고 없앤얼굴 1.png"
+            alt="화장품을 들고있는 모델 사진"
+          />
+        </div>
+        <div class="phonepic"></div>
+        <div class="somok">
+          <p>SOMOK</p>
+        </div>
+        <div class="menulist">
+          <ul>
+            <li class="xxx">best</li>
+            <li class="xxx">new</li>
+            <li class="xxx">#somok</li>
+            <!-- <li class="ssy">SOMOK STORY</li> -->
+          </ul>
+        </div>
+        <div class="side">
+          <p class="fst">부드럽게 녹아드는 크리미한 텍스쳐</p>
+          <h1 class="ebc">이지 블렌딩 쿠션</h1>
+          <div class="show">
+            <p>Show More</p>
+          </div>
+          <div class="shop">
+            <p>Shop Now</p>
+          </div>
+        </div>
+        <div class="newbox">
+          <a href="./11_sm.html">
+            <div class="login">
+              <p>로그인</p>
+            </div>
+          </a>
+          <div class="vc">
+            <p>ㅣ</p>
+          </div>
+          <div class="jojoin">
+            <p>회원가입</p>
+          </div>
+        </div>
+      </main>
+      <!-- 도는 글자 -->
+      <div class="daegul">
+        <div class="daegul-inner">
+          <span>Timeless Beauty, Rooted in Tradition and Nature.</span>
+          <span>Timeless Beauty, Rooted in Tradition and Nature.</span>
+        </div>
+      </div>
+      <!-- 본문 (달라짐)  -->
+
+      <!-- todo\05_main.html 정정정-->
+
+      <div id="content">
+        <section>
+          <div id="photo">
+            <img src="./img/image1.png" id="model" />
+            <img src="./img/image2.png" id="woman" />
+          </div>
+
+          <div id="main">
+            <p class="red">redfine the uniqueness of</p>
+            <div id="line">
+              <h5>고유함을</h5>
+              <h1>"재정의"</h1>
+              <h5>하다</h5>
+            </div>
+
+            <p class="store">
+              소목 스토어 강남에서 진행되는 <br />
+              예약제 퍼스널 맞춤 메이크업 서비스입니다.
+            </p>
+            <a href="./jini copy.html">
+              <div class="button">
+                <p class="footer">예약하기</p>
+              </div>
+            </a>
+          </div>
+        </section>
+      </div>
+
+      <!-- TODO:06_main.html 진진-->
+
+      <aside>
+        <div id="jin">
+          <!-- new & best -->
+          <div class="top">
+            <img src="./img/뉴베스트.png" />
+          </div>
+
+          <div class="cos">
+            <!-- 그림1 -->
+            <div class="pic1">
+              <img src="./img/Frame 8.png" width="140" alt="로션" />
+            </div>
+            <!-- 그림2 -->
+            <div class="pic2">
+              <img src="./img/Frame 9.png" width="140" alt="크림" />
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- todo:07_main.html 진진(카메라)-->
+      <div id="jin3">
+        <ul class="notice">
+          <img src="./img/check.png" alt="체크박스" class="checkbox" />
+          <li class="bold">NOTICE</li>
+          <li class="line">|</li>
+          <li class="font">설연휴 배송 공지 안내 &nbsp;</li>
+          <img src="./img/Vector.png" class="cbplus" />
+        </ul>
+
+        <ul class="camera">
+          <img src="./img/camera.png" alt="카메라" class="camera" />
+          <li class="bold">MEDIA</li>
+          <li class="line">|</li>
+          <li class="font">[NEWS] 소목, 2월 올영 세일 참여...</li>
+          <img src="./img/Vector.png" class="cmrplus" />
+        </ul>
+      </div>
+
+      <!-- 꼬리말(고정)  -->
+      <footer>
+        <div class="allbox">
+          <div id="address">
+            <div>
+              <h2>call center</h2>
+              <h1 class="phone">012-345-6759</h1>
+              <br />
+              <p class="information">평일 AM 10:00 - PM 05:00</p>
+              <p class="information">점심 PM 01:00 - PM 02:00</p>
+              <p class="information">토/일요일 및 공휴일 휴무</p>
+            </div>
+          </div>
+
+          <div id="image">
+            <img src="./img/a.png" alt="네이버연결" />
+            <img src="./img/b.png" alt="인스타연결" />
+            <img src="./img/c.png" alt="메일보내기" />
+          </div>
+        </div>
+      </footer>
+      <!-- 하단 메뉴바 -->
+      <menu>
+        <div class="menubar">
+          <ul class="구구">
+            <li>
+              <a href="./brandinforsm.html">
+                <div a href="./brandinforsm.html" class="hbg">
+                  <span class="texthd1">BRAND<br />STORY</span>
+                  <img src="./img/하단메뉴이모티콘.png" alt="브랜드스토리메뉴" />
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="./00_sujung.html">
+              <div a href="#" class="nmi">
+                <span class="texthd2">&nbsp;<br />EVENT<br />&nbsp;</span>
+                <img src="./img/하단메뉴이모티콘.png" alt="이벤트메뉴" />
+              </div>
+            </a>
+            </li>
+
+            <li class="mid">
+              <a href="./jini copy.html">
+                <span class="texthd3">PERSONAL<br />SERVICE</span>
+                <div a href="./jini copy.html" class="dgrm">
+                  <p>SOMOK</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="./06_new-01.html">
+                <div a href="./06_new-01.html" class="heart">
+                  <span class="texthd4">&nbsp;<br />NEW<br />&nbsp;</span>
+                  <img src="./img/하단메뉴이모티콘.png" alt="신상품메뉴" />
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="./best_ng.html">
+                <div a href="./best_ng.html" class="user">
+                  <span class="texthd5">&nbsp;<br />BEST<br />&nbsp;</span>
+                  <img src="./img/하단메뉴이모티콘.png" alt="베스트메뉴" />
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </menu>
+    </div>
+
+    <!-- TODO : jquery cdn(인터넷주소) -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- TODO : Typed.js 플러그인 인터넷주소 -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- TODO : 2) Swiper JS: 공식사이트) https://swiperjs.com/demos -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- TODO : AOS js: https://michalsnik.github.io/aos/ -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- TODO : isotope cdn(인터넷주소) -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+    <!-- 팀원 js 모음 -->
+
+    <!-- 메인화면 호버메뉴바 -->
+
+    <!-- 슬라이드메뉴 -->
+    <script>
+      document
+        .querySelector(".menususu")
+        .addEventListener("mouseover", function () {
+          this.classList.add("active"); // 메뉴 열기
+        });
+
+      document
+        .querySelector(".menususu")
+        .addEventListener("mouseleave", function () {
+          this.classList.remove("active"); // 메뉴 닫기
+        });
+    </script>
+  </body>
+</html>

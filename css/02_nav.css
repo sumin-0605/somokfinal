@@ -1,0 +1,23 @@
+nav { height: 2.5rem; margin: 0; padding: 0; }
+.somokfst { float: left; margin-top: 0.2rem;}
+h1 { color: var(--dark_green1); margin-left: 1rem; font-family: "DM Serif Display", serif; } 
+.cart { position: absolute; top: 1.5rem; right: 1.2rem; } 
+.search { position: absolute; top: 1.5rem; right: 4rem; } 
+.search img { margin-top: 0.5rem; width: 1.5rem; margin-right: 0rem; } 
+.cart img { margin-top: 0.5rem; width: 1.5rem; } 
+
+@media screen and (min-width: 768px) and (max-width: 1439px) { nav { height: 7%; display: block; } 
+ .somokfst { font-size: 2rem; } 
+ .cart { margin-top: 0.9rem; margin-right: 1rem; } 
+ .search { margin-top: 0.9rem; margin-right: 3.5rem; } 
+ .cart img { width: 2.5rem; } 
+ .search img { width: 2.5rem; } 
+ .dgrm p { color: black; } 
+}
+
+@media screen and (min-width: 1440px) {
+
+
+ nav { display: none; } 
+ }
+.hiddenmenubtn { position: absolute; top: 5rem; } 

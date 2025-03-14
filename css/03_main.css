@@ -1,0 +1,99 @@
+main { height: 30%; margin: 0rem 0 0 0; padding: 0; } 
+.mbn { height: 100%; width: 100%; position: relative; padding-bottom: 1rem; right: 1rem; } 
+.mbnyj { width: 100%; height: 100%; margin: 0; position: absolute; right: 3rem; } 
+/* .side { position: absolute; left: 7rem; top: 35rem; }  */
+.fst { color: black; margin: 0; margin-bottom: 0.5rem; margin-left: 0.125rem; letter-spacing: 0.0625rem; text-align: center; } 
+main h1 { color: black; font-family: "Gowun Dodum", serif; font-weight: bold; font-size: 1.75rem; letter-spacing: -0.1875rem; margin: 0; margin-left: 0.3125rem; } 
+.show { width: 4.875rem; height: 1.375rem; background-color: var(--dark_green1); float: right; } 
+.shop { width: 4.875rem; height: 1.375rem; background-color: var(--dark_green1); float: right; } 
+.show p { font-family: "DM Serif Display", serif; margin-left: 0.4375rem; margin-bottom: 0.125rem; font-size: 0.625rem; color: white; } 
+.shop p { font-family: "DM Serif Display", serif; margin-left: 0.625rem; font-size: 0.625rem; margin-bottom: 0.125rem; color: white; } 
+@media screen and (min-width: 375px) and (max-width: 767px) { 
+ .menulist { display: none; } 
+ .mbn { content: url(../img/메인배너1.png); width: 100%; } 
+ 
+ .fst { font-size: 0.5rem; text-align: end; } 
+ .side h1 { font-size: 1.5625rem; } 
+ .show { width: 3.75rem; height: 0.9375rem; align-items: end; margin-top: 1rem; margin-left: 1.2rem;} 
+ .shop { width: 3.75rem; height: 0.9375rem; align-items: end;  margin-top: 1rem;} 
+.login { display: none; } 
+ .vc { display: none; } 
+ .jojoin { display: none; } 
+ .somok p { display: none; } 
+ .show:hover { background-color: white; } 
+ .shop:hover { background-color: white; } 
+ .show p:hover { color: var(--dark_green1); } 
+ .shop p:hover { color: var(--dark_green1); } 
+ .side {text-align: center; text-align: end;
+        width: 90vw; position: absolute; top: 7rem;} 
+ .show p { font-size: 0.5rem; margin: 0; 
+            margin-top: 0.2rem; margin-bottom: 0.8rem; text-align: center; } 
+ .shop p { font-size: 0.5rem; margin: 0; 
+            margin-top: 0.2rem; margin-bottom: 0.8rem;  text-align: center; } 
+ }
+
+@media screen and (min-width: 768px) and (max-width: 1439px) { 
+ .mbn {height: 100%; } 
+ .mbnyj {height: 100%; 
+         width: 100%; } 
+ .fst {text-align: end;  } 
+ .ebc {margin-right: 2.8rem;}
+ .side {text-align: center; 
+        text-align: end;
+        width: 90vw;
+        position: absolute;  
+        top: 9.5rem; } 
+ .show {margin: 2.3125rem 2rem 0 ; 
+       } 
+ .show p {letter-spacing: 0.125rem; 
+          text-align: center; margin-top: 0.25rem; 
+          margin-left: 0rem; } 
+ .shop {
+        margin-top: 2.3125rem; } 
+ .shop p { margin: 0; letter-spacing: 0.125rem; text-align: center; margin-top: 0.25rem; } 
+ .menulist { display: none; } 
+ .somok,
+ .login,
+ .vc,
+ .jojoin { display: none; } 
+ main { height: 15rem; }
+ .show:hover { background-color: white; } 
+ .shop:hover { background-color: white; } 
+ .show p:hover { color: var(--dark_green1); } 
+ .shop p:hover { color: var(--dark_green1); } 
+ }
+
+@media screen and (min-width: 1440px) { 
+ main { height: 30rem; } 
+ .mbn { width: 99%; height: 100%; } 
+ .mbnyj { width: 100%; height: 100%;}
+ .side { width: 95vw; position: absolute;  height: 30%;  top: 7rem;  text-align: center;  float: right;} 
+ .fst { font-size: 1.875rem; margin: 0; text-align: end;} 
+ .side h1 { font-size: 3.75rem; margin-bottom: 3.125rem; } 
+ .ebc {text-align: end; margin-right: 2rem;}
+
+ .show:hover { background-color: white; } 
+ .shop:hover { background-color: white; } 
+ .show p:hover { color: var(--dark_green1); } 
+ .shop p:hover { color: var(--dark_green1); } 
+ 
+
+
+ .show { width: 9.375rem; height: 2.5rem; margin-left: 6.875rem; margin-top: 1.3rem; } 
+ .shop { width: 9.375rem; height: 2.5rem; margin-left: 4.375rem; margin-top: 1.3rem; margin-right: 2rem;} 
+ .show p { font-size: 1.0625rem; margin-top: 0.5rem; letter-spacing: 0.1875rem; } 
+ .shop p { font-size: 1.0625rem; margin-top: 0.5rem; letter-spacing: 0.3125rem; } 
+ .somok { position: absolute; top: 1rem; left: 2rem; } 
+ .somok p { letter-spacing: 0.0625rem; color: var(--dark_green1); font-size: 4.0625rem; font-family: "DM Serif Display", serif; } 
+ .menulist { color: var(--dark_green1); font-size: 1.5625rem; font-family: "DM Serif Display", serif; position: absolute; top: 7.5rem; } 
+ .menulist li { padding-left: 0; margin-left: 1rem; } 
+
+ .vc p { color: var(--dark_green1); font-size: 1.25rem; font-weight: bold; } 
+ .login p { color: var(--dark_green1); font-size: 1.125rem; font-weight: bold; } 
+ .jojoin p { color: var(--dark_green1); font-size: 1.125rem; font-weight: bold; } 
+ .menulist .xxx { display: none; } 
+ .ssy { margin-top: 18rem; padding: 0; } 
+ .ssy:hover { border-bottom: 2px solid var(--dark_green1); } 
+ .newbox {
+ position: relative; top: -27.5rem; display: flex; width: 20rem; height: 5rem; float: right; right: -3rem; gap: 1rem; } 
+}

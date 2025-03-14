@@ -1,0 +1,23 @@
+.maintree { width: 100%; height: 65vh; background-image: url("../img/모바일\ 나무.png"); min-width: 375px; background-repeat: no-repeat; background-size: cover; background-position: center; position: relative; margin-top: -2rem; } 
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1439px){
+ .maintree { width: 100%; height: 100vh; min-width: 786px; background-image: url("../img/태블릿\ 나무.png"); background-repeat: no-repeat; background-size: cover; background-position: center; position: relative; margin-top: -1rem; } 
+ .dtmn { display: none; } 
+ }
+
+ @media screen and (min-width: 1440px){
+ .dtmn { width: 100vw; height: 12%; 
+ position: absolute; top: 0px; z-index: 1; } 
+ .menususu-button { color: white; } 
+ .login p, .vc p, .jojoin p, .somokdt p { color: white; } 
+ .somokdt { font-size: 5rem; font-family: "DM Serif Display", serif; margin-left: 3rem; margin-top: 2rem; color: rgb(0, 0, 0); } 
+ .menususu-button { margin-top: 3rem; margin-left: 2rem; } 
+ .maintreeare { width: 100vw; height: 60rem; display: inline; } 
+ .maintree { width: 100vw; height: 100rem; min-width: 1440px; background-image: url("../img/데탑\ 나무.png"); background-repeat: no-repeat; background-size: cover; background-position: center; position: relative; }
+
+ footer { position: fixed; bottom: 0; width: 100%; } 
+
+ }
+ 

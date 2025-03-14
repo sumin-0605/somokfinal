@@ -1,0 +1,46 @@
+.container { position: relative; /* 절대 위치를 위한 부모 요소 */
+ height: 13rem; background-color: white; } 
+
+.bx { background-color: blue; } 
+#sticky-box { position: sticky; top: 10rem; transition: all 1s; width: 2rem; z-index: 50; margin: 0 auto; }
+
+.fixed { position: fixed !important; top: 7rem !important; background-color: red; } 
+
+.absolute { position: absolute !important; 
+ }
+
+
+.mt { width: 100vw; position: absolute; margin-top: -4.75rem; } 
+.mb {
+ width: 100vw;position: absolute;z-index: 100;margin-top: -4.9rem;}
+
+.mbubtop { width: 100vw;
+
+}
+
+.mbubcbtm {
+ width: 100vw;
+
+}
+
+
+.mbu { width: 2rem; position: relative; 
+ padding: 0; } 
+.bx { clear: both; } 
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+.container { height: 30rem; } 
+.mbubtop { margin: 0; } 
+.mbubcbtm { margin: 0; } 
+.mbu { margin: 0; width: 3rem; } 
+ }
+
+@media screen and (min-width: 1440px){
+ .container { height: 60rem; } 
+ .mbubtop { margin: 0; } 
+ .mbubcbtm { margin: 0; } 
+ .mbu { margin: 0; width: 5rem; } 
+ } 
+ 

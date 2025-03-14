@@ -1,0 +1,51 @@
+#page { width: 99vw; height: 99vh; margin: 0 auto; } 
+.notice { width: 100%; border-bottom: 1px solid lightgray;
+ height: 45%; padding-bottom: 0.3rem; } 
+
+.notice > li { list-style-type: none; display: inline-block; margin-left: 0.25rem; } 
+
+.camera { 
+ height: 45%; padding-bottom: 0.3rem; } 
+
+.camera > li { list-style-type: none; display: inline-block; margin-left: 0.25rem; } 
+
+.bold { font-weight: bold; font-size: 0.75rem; } 
+
+.plus { margin-left: 6px; } 
+
+.font { font-size: 0.75rem; } 
+
+.line { font-weight: bold; color: darkgreen; } 
+
+
+li { padding-bottom: 0.1rem; } 
+
+.cbplus { width: 3px; margin-left: 6.5rem; } 
+.cmrplus { margin-left: 3rem; } 
+.notice img { width: 7%; margin-bottom: -0.2rem; padding: 0.1rem 0 0 0.5rem; } 
+
+.camera img { width: 7%; margin-bottom: -0.2rem; padding: 0.1rem 0 0 0.5rem; } 
+
+#jin3 { width: 99%;height: 10%; } 
+
+@media screen and (min-width: 768px){
+ .notice { float: left; padding: 1rem 1rem; }
+
+ .notice img { width: 2rem; } 
+
+ .camera { width: 99%; float: left; padding: 0.3rem 1rem; }
+ .camera img { width: 2rem; } 
+ .notice .camera { clear: both; } 
+
+ .cbplus { margin-left: 9.3rem; } 
+ .font { font-size: 1.4rem; } 
+ .camera { margin-top: 0.4rem; margin-right: 0.2rem; } 
+
+ .bold { font-size: 1.6rem; } 
+
+ #jin3 { width: 100%; height: 8.3rem; } 
+ }
+
+@media screen and (min-width: 1440px){
+ #jin3 { display: none; } 
+ }

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brand Story</title>
+
+    <!-- TODO : 1) Swiper js(캐러셀, 이미지 회전) css 넣기 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- TODO : AOS css: https://michalsnik.github.io/aos/ -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- css 모음음-->
+    <link rel="stylesheet" href="./css/00_style.css" />
+    <!-- 수민 탑, 메인베너 css -->
+    <link rel="stylesheet" href="./css/01_header_braninfor.css" />
+    <link rel="stylesheet" href="./css/02_nav_brandinfor.css" />
+    <link rel="stylesheet" href="./css/03_main_brand.css" />
+    <link rel="stylesheet" href="./css/SUMINCSS/slidemenu copy.css" />
+    <!--  메인화면 테스트 -->
+    <link rel="stylesheet" href="./css/SUMINCSS/hovermenu_sm.css" />
+    <!-- 임시본문 탑이랑 푸터 간격 별려놓을라고 넣어놓은거에요~! -->
+    <link rel="stylesheet" href="./css/10_bonmun.css" />
+    <!-- 메인 큰 나무 -->
+    <link rel="stylesheet" href="./css/maintreesm.css" />
+    <!-- 나무질감 -->
+    <link rel="stylesheet" href="./css/namuzilgam.css" />
+    <!-- 물방울 -->
+    <link rel="stylesheet" href="./css/mbu.css" />
+
+    <!-- 까만배경 글자 -->
+    <link rel="stylesheet" href="./css/black-box.css" />
+    <!-- 유연하지만 견고어쩌고 -->
+    <link rel="stylesheet" href="./css/uygg.css" />
+    <!-- 지점 카드 사진 -->
+    <link rel="stylesheet" href="./css/zizum.css" />
+    <!-- 이미 푸터 css -->
+    <link rel="stylesheet" href="./css/08_footer_sm.css" />
+    <!-- 수민 하단메뉴바 css -->
+    <link rel="stylesheet" href="./css/09_bottom_menu.css" />
+    <link rel="icon" type="image/png" href="./img/로고 파비콘.png" />
+   
+    <style>
+        #fac {
+                width: 50px;
+                height: 50px;
+                position: sticky;
+                top: 90vh;
+                left: 95vw;
+                z-index: 100;
+        }
+    </style>
+  </head>
+  <style>
+    @media screen and (min-width: 768px) and (max-width: 1439px) {
+      #page {
+        overflow-x: hidden;
+      }
+    }
+  </style>
+  
+
+  <body>
+    <!-- 전체페이지 :[PAGE] -->
+    <div id="page">
+      <div class="smss">
+        
+        <!-- 탑(고정) 신규가입유도  (고정)-->
+        <header>
+          <div class="join">
+            <p>소목 신규 회원 특별 혜택! 지금 회원가입 하러 가기!</p>
+          </div>
+        </header>
+        <!-- 탑(고정) 소목 로고, 장바구니메뉴 등등 (고정) -->
+        <nav>
+          <a href="index.html">
+            <div class="somokfst">
+              <h1>SOMOK</h1>
+            </div>
+          </a>
+
+          <div class="cart">
+            <img src="./img/돋보기 흰색.png" alt="검색 아이콘" />
+          </div>
+
+          <div class="search">
+            <img src="./img/카트 흰색 (1).png" alt="장바구니 아이콘" />
+          </div>
+        </nav>
+        <!-- 데스크탑 할때 나올 로고랑 탑 메뉴 (고정) -->
+        <div class="somokk">
+          <div class="menususu">
+            <div class="menususu1">
+              <button class="menususu-button">
+                <img src="./img/로고_흰색.png" width="40rem" />
+              </button>
+            </div>
+            <div class="menususu-content">
+              <a href="./index.html" class="MNSM">SOMOK</a>
+              <a href="./jini copy.html" class="mn1">PERSONAL SERVICE</a>
+              <a href="./brandinforsm.html" class="mn2">BRAND STORY</a>
+              <a href="./00_sujung.html" class="mn3">EVENT</a>
+              <a href="./best_ng.html" class="mn4">BEST</a>
+              <a href="./06_new-01.html" class="mn5">NEW</a>
+            </div>
+          </div>
+        </div>
+        <div class="bboxx">
+          <a href="./11_sm.html">
+            <div class="login">
+              <p>로그인</p>
+            </div>
+          </a>
+          <div class="vc">
+            <p>ㅣ</p>
+          </div>
+          <div class="jojoin">
+            <p>회원가입</p>
+          </div>
+        </div>
+
+        <!-- 본문 (달라짐)  -->
+        <!-- 브랜드 소개 메인 큰 나무 -->
+        <div class="maintreeare">
+          <div class="maintree"></div>
+        </div>
+
+        <!-- 나무질감 사진 -->
+
+        <div class="namuzg">
+          <div class="nmtext">
+            <p class="take" data-aos="fade-right">take root</p>
+            <p class="in" data-aos="fade-right">in a deep</p>
+            <p class="sense" data-aos="fade-right">sense of</p>
+            <p class="vitality" id="typing">vitality</p>
+            <p class="bburi" data-aos="fade-up">깊은 생명력을 뿌리내리다</p>
+          </div>
+        </div>
+
+        <!-- 까만색에 글씨 -->
+        <div class="black-box">
+          <ul>
+            <li class="bbt1" data-aos="fade-up" data-aos-duration="2000">
+              beauty that contains the uniqueness of
+            </li>
+            <li class="bbt2" data-aos="fade-up" data-aos-duration="2000">
+              ‘ tradition ’
+            </li>
+            <li class="bbt3" data-aos="fade-up" data-aos-duration="2000">
+              스쳐가는 빠른 유행들 속에서 흔들리지 않고 <br />
+              깊은 뿌리를 내려 기본을 지키는 <br />
+              전통 뷰티 브랜드 소목입니다.
+            </li>
+          </ul>
+        </div>
+        <!-- 물방울 슬라이드 -->
+        <div class="container">
+          <div id="sticky-box">
+            <img class="mbu" src="./img/물방울.png" alt="" />
+          </div>
+          <!-- <div class="mbucontainer"> -->
+          <div class="mt">
+            <img class="mbubtop" src="./img/물방울 받침 뚜껑.png" alt="" />
+          </div>
+          <div class="mb">
+            <img class="mbubcbtm" src="./img/물방울 받침 바닥.png" alt="" />
+          </div>
+          <!-- </div> -->
+        </div>
+        <div class="uygg">
+          <div class="tb5"></div>
+          <p class="uy" data-aos="zoom-in" data-aos-duration="1500">
+            유연하지만 견고하게
+          </p>
+          <p class="by" data-aos="zoom-in" data-aos-duration="1500">
+            본연의 아름다움을 발산하는 베이스부터 <br />
+            다양성을 포용하는 편안한 컬러 메이크업까지 <br />
+            소목의 자부심을 그대로 담았습니다.
+          </p>
+        </div>
+        <!-- 지점카드 -->
+        <div class="mainsumin">
+          <div class="main_barsumin">
+            <img src="./img/shop1 copy.jpg" alt="이미지 1" class="hover-img" />
+            소목<br />강남점
+          </div>
+          <div class="main_barsumin">
+            <img src="./img/shop2 copy.jpg" alt="이미지 2" class="hover-img" />
+            소목<br />한남점
+          </div>
+          <div class="main_barsumin">
+            <img src="./img/shop3 copy.jpg" alt="이미지 3" class="hover-img" />
+            소목<br />대전점
+          </div>
+          <div class="main_barsumin">
+            <img src="./img/shop4 copy.jpg" alt="이미지 4" class="hover-img" />
+            소목<br />부산본점
+          </div>
+          <div class="main_barsumin">
+            <img src="./img/shop5 copy.jpg" alt="이미지 5" class="hover-img" />
+            소목<br />광안점
+          </div>
+        </div>
+        <!-- 꼬리말(고정)  -->
+        <footer>
+          <div class="allbox">
+            <div id="address">
+              <div>
+                <h2>call center</h2>
+                <h1 class="phone">012-345-6759</h1>
+                <br />
+                <p class="information">평일 AM 10:00 - PM 05:00</p>
+                <p class="information">점심 PM 01:00 - PM 02:00</p>
+                <p class="information">토/일요일 및 공휴일 휴무</p>
+              </div>
+            </div>
+
+            <div id="image">
+              <img src="./img/a.png" alt="네이버연결" />
+              <img src="./img/b.png" alt="인스타연결" />
+              <img src="./img/c.png" alt="메일보내기" />
+            </div>
+          </div>
+        </footer>
+        <!-- 하단 메뉴바(고정) -->
+        <menu>
+          <div class="menubar">
+            <ul class="구구">
+              <li>
+                <a href="./brandinforsm.html">
+                  <div a href="./brandinforsm.html" class="hbg">
+                    <span class="texthd1">BRAND<br />STORY</span>
+                    <img src="./img/하단메뉴이모티콘.png" alt="장바구니메뉴" />
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="./00_sujung.html">
+                  <div a href="#" class="nmi">
+                    <span class="texthd2">&nbsp;<br />EVENT<br />&nbsp;</span>
+                    <img src="./img/하단메뉴이모티콘.png" alt="장바구니메뉴" />
+                  </div>
+                </a>
+              </li>
+
+              <li class="mid">
+                <a href="./jini copy.html">
+                  <span class="texthd3">PERSONAL<br />SERVICE</span>
+                  <div a href="./jini copy.html" class="dgrm">
+                    <p>SOMOK</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="./06_new-01.html">
+                  <div a href="./06_new-01.html" class="heart">
+                    <span class="texthd4">&nbsp;<br />NEW<br />&nbsp;</span>
+                    <img src="./img/하단메뉴이모티콘.png" alt="장바구니메뉴" />
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="./best_ng.html">
+                  <div a href="./best_ng.html" class="user">
+                    <span class="texthd5">&nbsp;<br />BEST<br />&nbsp;</span>
+                    <img src="./img/하단메뉴이모티콘.png" alt="장바구니메뉴" />
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </menu>
+      </div>
+    </div>
+
+    <!-- TODO : jquery cdn(인터넷주소) -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- TODO : Typed.js 플러그인 인터넷주소 -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- TODO : 2) Swiper JS: 공식사이트) https://swiperjs.com/demos -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- TODO : AOS js: https://michalsnik.github.io/aos/ -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- TODO : isotope cdn(인터넷주소) -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+    <!-- 팀원 js 모음 -->
+
+    <!-- 메인화면 호버메뉴바 -->
+    <script>
+      document
+        .querySelector(".menususu")
+        .addEventListener("mouseover", function () {
+          this.classList.add("active"); // 메뉴 열기
+        });
+
+      document
+        .querySelector(".menususu")
+        .addEventListener("mouseleave", function () {
+          this.classList.remove("active"); // 메뉴 닫기
+        });
+    </script>
+    <!-- 슬라이드메뉴 -->
+    <script src="./js/sumin/slidemenu.js"></script>
+    <!-- 타이핑 -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        let typingStarted = false; // 타이핑 시작 여부 체크
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting && !typingStarted) {
+                typingStarted = true; // 한 번 실행되면 다시 실행되지 않도록 설정
+                new Typed("#typing", {
+                  strings: ["", "vitality"],
+                  typeSpeed: 50,
+                });
+              }
+            });
+          },
+          { threshold: 0.5 } // 50% 이상 보이면 실행
+        );
+
+        // 감지할 요소 (타이핑이 있는 부분)
+        const target = document.querySelector("#typing");
+        if (target) {
+          observer.observe(target);
+        }
+      });
+    </script>
+    <!-- AOS -->
+    <script>
+      AOS.init();
+    </script>
+    <!-- TOP으로 가는 아이콘 -->
+    <script>
+      $(function () {
+        $("#fac").click(function () {
+          $("html").scrollTop(0);
+        });
+      });
+    </script>
+  </body>
+</html>

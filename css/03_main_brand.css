@@ -1,0 +1,101 @@
+main { height: 30%; margin: 0rem 0 0 0; padding: 0; } 
+.mbn { height: 100%; width: 100%; position: relative; padding-bottom: 1rem; 
+ right: 1rem; } 
+.mbnyj { width: 100%; 
+ height: 100%; margin: 0; position: absolute; right: 3rem; } 
+.side { position: absolute; left: 7rem; 
+ top: 35rem; }
+.fst { color: black; margin: 0; margin-bottom: 0.5rem; 
+ margin-left: 0.125rem; 
+ letter-spacing: 0.0625rem; 
+ text-align: center; }
+main h1 { color: black; font-family: "Gowun Dodum", serif; font-weight: bold; font-size: 1.75rem; 
+ letter-spacing: -0.1875rem; 
+ margin: 0; margin-left: 0.3125rem; }
+.show { width: 4.875rem;
+ height: 1.375rem; 
+ background-color: var(--dark_green1); float: left; }
+.shop { width: 4.875rem; 
+ height: 1.375rem;
+ background-color: var(--dark_green1); float: left; margin-left: 1.25rem; 
+ margin-top: 1.375rem; }
+.show p { font-family: "DM Serif Display", serif; margin-left: 0.4375rem; 
+ margin-bottom: 0.125rem; 
+ font-size: 0.625rem; 
+  color: white; } 
+.shop p { font-family: "DM Serif Display", serif; margin-left: 0.625rem; 
+ font-size: 0.625rem; 
+ margin-bottom: 0.125rem; 
+ color: white; } 
+@media screen and (min-width: 375px) and (max-width: 767px) { 
+ .menulist { display: none; } 
+ .mbn { content: url(../img/메인배너1.png); width: 100%; } 
+ .side { position: absolute; left: 12.5rem; top: 6rem; text-align: center; } 
+ .fst { font-size: 0.5rem; margin-left: 0.625rem; } 
+ .side h1 { font-size: 1.5625rem; } 
+ .show { width: 3.75rem; height: 0.9375rem; margin-top: 2rem; margin-left: 0.625rem; } 
+ .shop { width: 3.75rem; height: 0.9375rem; margin-top: 2rem; margin-left: 1.25rem; } 
+ .show p { font-size: 0.5rem; margin: 0; margin-top: 0.2rem; margin-bottom: 0.8rem; } 
+ .shop p { font-size: 0.5rem; margin: 0; margin-top: 0.2rem; margin-bottom: 0.8rem; } 
+ .vc { display: none; } 
+ .jojoin { display: none; } 
+ .somok p { display: none; } 
+ .show:hover { background-color: white; } 
+ .shop:hover { background-color: white; } 
+ .show p:hover { color: var(--dark_green1); } 
+ .shop p:hover { color: var(--dark_green1); } 
+ }
+
+@media screen and (min-width: 768px) and (max-width: 1439px) { 
+ .mbn { height: 80%; } 
+ .mbnyj { height: 90%; width: 100%; } 
+ .side { text-align: center; width: 40%; height: 20%; position: absolute; left: 28.125rem; top: 9.5rem; } 
+ .show { position: absolute; left: 3.125rem; margin-top: 2.3125rem; } 
+ .show p { letter-spacing: 0.125rem; text-align: center; margin-top: 0.25rem; margin-left: 0rem; } 
+ .shop { position: absolute; left: 10rem; margin-top: 2.3125rem; } 
+ .shop p { margin: 0; letter-spacing: 0.125rem; text-align: center; margin-top: 0.25rem; } 
+ .menulist { display: none; } 
+ .somok,
+ .login,
+ .vc,
+ .jojoin { display: none; } 
+ main { height: 20rem; }
+ .show:hover { background-color: white; } 
+ .shop:hover { background-color: white; } 
+ .show p:hover { color: var(--dark_green1); } 
+ .shop p:hover { color: var(--dark_green1); } 
+ }
+
+@media screen and (min-width: 1440px) { 
+ main { height: 28rem; } 
+ .mbn { width: 99%; height: 100%; } 
+ .mbnyj { width: 100%; height: 100%;}
+ .side { width: 40%; height: 10%; position: absolute; top: 7rem; left: 53rem; text-align: center; } 
+ .fst { font-size: 1.875rem; margin: 0; } 
+ .side h1 { font-size: 3.75rem; margin-bottom: 3.125rem; } 
+
+
+ .show:hover { background-color: white; } 
+ .shop:hover { background-color: white; } 
+ .show p:hover { color: var(--dark_green1); } 
+ .shop p:hover { color: var(--dark_green1); } 
+ 
+
+
+ .show { width: 9.375rem; height: 2.5rem; margin-left: 6.875rem; margin-top: 1.3rem; } 
+ .shop { width: 9.375rem; height: 2.5rem; margin-left: 4.375rem; } 
+ .show p { font-size: 1.0625rem; margin-top: 0.5rem; letter-spacing: 0.1875rem; } 
+ .shop p { font-size: 1.0625rem; margin-top: 0.5rem; letter-spacing: 0.3125rem; } 
+ .somok { position: absolute; top: 1rem; left: 2rem; }
+ .somok p { letter-spacing: 0.0625rem; color: var(--dark_green1); font-size: 4.0625rem; font-family: "DM Serif Display", serif; } 
+ .menulist { color: var(--dark_green1); font-size: 1.5625rem; font-family: "DM Serif Display", serif; position: absolute; top: 7.5rem; }
+ .menulist li { padding-left: 0; margin-left: 1rem; } 
+
+ .vc p { color: var(--dark_green1); font-size: 1.25rem; font-weight: bold; } 
+ .login p { color: var(--dark_green1); font-size: 1.125rem; font-weight: bold; }
+ .jojoin p { color: var(--dark_green1); font-size: 1.125rem; font-weight: bold; } 
+ .menulist .xxx { display: none; } 
+ .ssy { margin-top: 18rem; padding: 0; } 
+ .ssy:hover { border-bottom: 2px solid var(--dark_green1); } 
+ .newbox { position: relative; top: -26rem; display: flex; width: 20rem; height: 3rem; float: right; right: -7.5rem; gap: 1rem; } 
+}

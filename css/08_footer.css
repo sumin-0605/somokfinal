@@ -1,0 +1,33 @@
+#page { width: 99vw; height: 99vh; margin: 0 auto; } 
+.allbox { margin-bottom: 6rem; } 
+
+footer { 
+ background-color: var(--dark_green1); clear: both; width: 100vw; height: 20rem; color: white; box-sizing: border-box; padding: 0 0.4rem 0 0.4rem; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; position: relative; z-index: 1; } 
+
+#address { color: white; margin-left: 0.3125rem; height: 100%; text-align: left; display: flex; justify-content: flex-start; align-items: center; } 
+
+#address h2 { margin: 0.5rem 0 0.5rem 0.2rem; } 
+.phone { font-size: 2rem; color: white; margin-left: 0rem; } 
+
+#information p { font-size: 0.8125rem; 
+ clear: both; } 
+
+#image { position: absolute; right: 0.2rem; top: 75%; transform: translateY(-50%); display: flex; align-items: center; } 
+
+#image img { width: 3rem; margin: 0.2rem; margin-bottom: 8REM; } 
+
+@media screen and (min-width: 768px){
+ #address { float: left; height: 100%; } 
+ #information P { height: 100%; margin-left: 0.6rem; clear: both; } 
+ 
+ footer { width: 99vw; } 
+ #image { margin-right: 1.5rem; } 
+ .allbox { margin-left: 1rem; } 
+ }
+
+@media screen and (min-width: 1440px){
+ #address { float: left; height: 100%; } 
+ footer { height: 14rem; padding-top: 4rem; margin: 0; width: 100vw; } 
+ #image img { margin-bottom: 5rem; } 
+ #image { right: 2rem; } 
+ }

@@ -1,0 +1,27 @@
+
+.sm { /* width: 99vw; */
+ height: 99vh; padding: 0; margin: 0 auto;}
+header { height: 4%; } 
+.join { height: 100%; background-color: var(--dark_green1); } 
+header p { color: white; font-family: 'Gowun Dodum'; font-size: 0.8rem; display: inline-block; vertical-align: middle; letter-spacing: 0.125rem; margin-left: 1.25rem; margin-bottom: 0.1875rem; } 
+.sm { height: 13rem; } 
+@media screen and (min-width: 1px) and (max-width: 375px){
+ .newrogo { display: none;}
+ .menususu {display: none;}
+ .newbox {display: none;}
+ .side { position: absolute; top: 7rem; right: 1rem; text-align: center;}
+ .fst {font-size: 0.7rem; }
+ .show { margin-top: 1rem; margin-left: 1rem;}
+ .shop { margin-top: 1rem;}
+ .shop p, .show p { margin-top: 4px; margin-right: 5px;}
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+ header p { margin-left: 5.625rem; margin-top: 0.4rem; letter-spacing: 0.7rem; margin-bottom: 0.5rem; } 
+ header { width: 100vw; height: 3.5%; } 
+ .cart img { margin-left: 1rem; } 
+ 
+ }
+@media screen and (min-width: 1440px) { header { display: none; } 
+ .sm { height: 25REM; } 
+ #page {width: 100vw;} 
+ }

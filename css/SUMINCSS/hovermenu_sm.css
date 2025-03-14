@@ -1,0 +1,38 @@
+.slideMenu{
+    position: relative;
+  }
+  
+  #openSlideMenu{
+    padding-top: 1.2rem;
+    padding-left: 1.2rem;
+    cursor: pointer;
+  }
+  
+  #closeSlideMenu {
+    padding-top: 1.2rem;
+    padding-left: 1.2rem;
+    cursor: pointer;
+  }
+  
+  #slideMenu{
+    width: 30%;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    background-color: #808080;
+  
+    -webkit-transition: left .3s;
+    -moz-transition: left .3s;
+    -ms-transition: left .3s;
+    -o-transition: left .3s;
+    transition: left .3s;
+  }
+  
+  #slideMenu ul li {
+    display: inline-block;
+    padding-top: 1.05rem;
+  }
+  
+  #slideMenu.on {
+    left: 0;
+  }

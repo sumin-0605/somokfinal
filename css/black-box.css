@@ -1,0 +1,14 @@
+.black-box { width: 100vw; height: 28.5rem; background-color: black; color: white; align-items: center; padding: 2rem; text-align: center; } 
+.bbt1 { font-family: "DM Serif Display", serif;}
+.bbt2 { font-family: "DM Serif Display", serif; font-size: 3.8rem; margin-top: 6rem; margin-bottom: 6rem; } 
+.bbt3 { font-family: 'Gowun Dodum'; font-size: 0.8rem; } 
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {}
+
+ 
+@media screen and (min-width: 1440px){
+ .black-box { height: 50rem; padding-top: 4rem; } 
+ .bbt1 { font-size: 2.7rem; } 
+ .bbt2 { font-family: "DM Serif Display", serif; font-size: 7rem; margin-top: 9rem; margin-bottom: 9rem; } 
+ .bbt3 { font-family: 'Gowun Dodum'; font-size: 2rem; } 
+ }

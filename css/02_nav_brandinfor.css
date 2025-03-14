@@ -1,0 +1,30 @@
+nav { height: 7rem; width: 100vw; margin: 0; padding: 0; background-color: var(--dark_green1); } 
+.somokfst { float: left; margin-top: 1.5rem;}
+h1 { color: var(--dark_green1); margin-left: 1rem; font-family: "DM Serif Display", serif; color: white; } 
+.cart { position: absolute; top: 1.5rem; right: 1.2rem; } 
+.search { position: absolute; top: 1.5rem; right: 4rem; } 
+.search img { margin-top: 0.5rem; width: 1.5rem; margin-right: 0rem; } 
+.cart img { margin-top: 0.5rem; width: 1.5rem; } 
+nav { z-index: 5; } 
+.somok { display: none; } 
+
+@media screen and (min-width: 768px) and (max-width: 1439px) { nav { margin: 0; padding: 0; height: 3%; width: 100vw; }
+ .somokfst { font-size: 2rem; margin-top: 1rem; } 
+ .cart { margin-top: 0rem; margin-right: 1rem; } 
+ .search { margin-top: 0rem; margin-right: 3.5rem; } 
+ .cart img { width: 2.5rem; } 
+ .search img { width: 2.5rem; } 
+ .dgrm p { color: black; } 
+}
+
+@media screen and (min-width: 1440px) {
+
+ hr { display: none; } 
+ .somokfst { font-size: 2.5rem; margin-left: 1rem; } 
+
+ .cart, .search { display: none; } 
+
+ nav { height: 10rem; } 
+.hiddenmenubtn { position: absolute; top: 5rem; } 
+ }
+/* .bboxx { width: 1rcap; } */
